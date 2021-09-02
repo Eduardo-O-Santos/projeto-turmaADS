@@ -47,8 +47,33 @@
                             <div class="icheck-primary">
                                 <input name="edttermos" name="edttermos" type="checkbox" id="agreeTerms" name="terms" value="agree">
                                 <label for="agreeTerms">
-                                    Estou de acordo com todas as condições, <a href="#">Leia os termos!</a>
+                                    Estou de acordo com todas as condições,
+                                    <a href="#" data-toggle="modal" data-target="#exampleModalLong">
+                                        Leia os termos
+                                    </a>
                                 </label>
+
+                                <!-- Modal -->
+                                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Termos de Uso</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    Este site pertence e é operado por [<a href="https://github.com/Eduardo-S4ntos">Eduardo Oliveira</a>] Estes Termos estabelecem os termos e condições sob os quais você pode utilizar nosso site e serviços oferecidos por nós. Este site oferece aos visitantes [descrição do que é oferecido em seu site]. Ao acessar ou usar o website do nosso serviço, você aprova que leu, entendeu e concorda em ficar vinculado a estes Termos.
+                                                </p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -60,18 +85,18 @@
                         </button>
                     </div>
                 </form>
-                    <div class="social-auth-links text-center">
-                        <a href="login.php" type="button" class="btn btn-block btn-danger">
+                <div class="social-auth-links text-center">
+                    <a href="login.php" type="button" class="btn btn-block btn-danger">
                         <i class="fas fa-ban"></i>
-                            Cancelar
-                        </a>
-                    </div>
+                        Cancelar
+                    </a>
+                </div>
             </div>
             <!-- /.form-box -->
         </div><!-- /.card -->
     </div>
     <!-- Valida os dados do forulário e caso seja valido salva os dado no banco de dados -->
-    <?php include_once "js-padrao.php"?>
+    <?php include_once "js-padrao.php" ?>
     <script src="js/cadastro.js"></script>
 </body>
 
