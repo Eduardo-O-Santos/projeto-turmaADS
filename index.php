@@ -37,15 +37,13 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">CONTATO</a>
                         </li>
+                        <!-- Right navbar links -->
+                        <li class="nav-item">
+                            <a class="btn bg-success" href="login.php">
+                                <i class="fas fa-sign-in-alt"></i> Entrar</a>
+                        </li>
                     </ul>
                 </div>
-                <!-- Right navbar links -->
-                <ul class="order-1 order-md-3 navbar-nav navbar-no-expand ml-auto">
-                    <li class="nav-item">
-                        <a class="btn btn-app bg-success mb-0" href="login.php">
-                            <i class="fas fa-sign-in-alt"></i>Entrar</a>
-                    </li>
-                </ul>
             </div>
         </nav>
         <!-- /.navbar -->

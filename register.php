@@ -65,7 +65,7 @@
                                             </div>
                                             <div class="modal-body">
                                                 <p>
-                                                    Este site pertence e é operado por [<a href="https://github.com/Eduardo-S4ntos">Eduardo Oliveira</a>] Estes Termos estabelecem os termos e condições sob os quais você pode utilizar nosso site e serviços oferecidos por nós. Este site oferece aos visitantes [descrição do que é oferecido em seu site]. Ao acessar ou usar o website do nosso serviço, você aprova que leu, entendeu e concorda em ficar vinculado a estes Termos.
+                                                    Este site pertence e é operado por [<a href="https://github.com/Eduardo-S4ntos"target="_blank">Eduardo Oliveira</a>] Estes Termos estabelecem os termos e condições sob os quais você pode utilizar nosso site e serviços oferecidos por nós. Este site oferece aos visitantes [descrição do que é oferecido em seu site]. Ao acessar ou usar o website do nosso serviço, você aprova que leu, entendeu e concorda em ficar vinculado a estes Termos.
                                                 </p>
                                             </div>
                                             <div class="modal-footer">
