@@ -7,3 +7,5 @@
  <!--Plugin java sript paa validações -->
  <script src="templete/AdminLTE-3.1.0/plugins/jquery-validation/jquery.validate.min.js"></script>
  <script src="templete/AdminLTE-3.1.0/plugins/jquery-validation/localization/messages_pt_BR.min.js"></script>
+ <!-- Biblioteca js-->
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>

@@ -5,14 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=width=device-width, initial-scale=1.0">
+    <!-- include do estilo -->
     <?php include_once "css-padrao.php"; ?>
     <title>Home</title>
 </head>
+<!-- corpo da pagina -->
 
 <body class="hold-transition layout-top-nav">
     <div class="wrapper">
 
-        <!-- Navbar -->
+        <!-- Navbar- barra de navegação -->
         <nav class="main-header navbar navbar-expand-md navbar-light navbar-white">
             <div class="container">
                 <a href="index.php" class="navbar-brand">
@@ -25,20 +27,23 @@
                 </button>
 
                 <div class="collapse navbar-collapse order-3" id="navbarCollapse">
-                    <!-- Left navbar links -->
+                    <!-- navbar links a esquerda -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
+                            <!-- navbar link tela de inicio -->
                             <a href="index.php" class="nav-link">HOME</a>
                         </li>
                         <li class="nav-item">
+                            <!-- navbar link tela sobre -->
                             <a href="#" class="nav-link">QUEM SOMOS</a>
                         </li>
 
                         <li class="nav-item">
+                            <!-- navbar link tela de contato -->
                             <a href="#" class="nav-link">CONTATO</a>
                         </li>
-                        <!-- Right navbar links -->
                         <li class="nav-item">
+                            <!-- navbar link tela de login -->
                             <a class="btn bg-success" href="login.php">
                                 <i class="fas fa-sign-in-alt"></i> Entrar</a>
                         </li>
@@ -46,7 +51,7 @@
                 </div>
             </div>
         </nav>
-        <!-- /.navbar -->
+        <!-- /.navbar - fechamento -->
 
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
@@ -66,9 +71,9 @@
         </aside>
         <!-- /.control-sidebar -->
 
-        <!-- Main Footer -->
+        <!-- Footer - rodapé do site -->
         <footer class="main-footer">
-            <!-- To the right -->
+            <!-- Para a direita -->
             <div class="float-right d-none d-sm-inline">
             </div>
             <strong>Copyright &copy; 2021 <a href="">Eduardo Oliveira</a>.</strong> All rights reserved.
